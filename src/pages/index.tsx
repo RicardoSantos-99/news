@@ -1,15 +1,15 @@
 import Head from "next/head";
-import { Fragment } from "react";
+import {Fragment} from "react";
 
 export default function Home() {
-  return (
+    return (
     <Fragment>
-      <h1>
         <Head>
-          <title>news</title>
+            <title>news</title>
         </Head>
-        Hello World
-      </h1>
+        <h1>
+            Hello World
+        </h1>
     </Fragment>
   );
 }
